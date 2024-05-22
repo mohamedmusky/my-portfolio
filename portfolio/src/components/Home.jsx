@@ -1,23 +1,24 @@
 import React from "react";
-import avatar from "../assets/avatar.jpg"
+import avatar from "../assets/avatar.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <div
-      name="home"
-      className="h-screen w-full "
-    >
+    <div name="home" className="h-screen w-full ">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold">
             I'm an IT Undergraduate
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am currently pursuing a degree in Information Technology at the Faculty of Information Technology, University of Moratuwa, 
-            and I am actively seeking an internship in software engineering to further enhance my practical skills and contribute to 
-            real-world projects.
+            As a committed Computer Science undergraduate at the University of
+            Ruhuna, I am actively seeking a software engineering internship to
+            further develop my practical skills and contribute to impactful
+            projects. My strong academic background and passion for technology
+            fuel my dedication to applying my knowledge in a professional
+            environment. I am eager to learn from experienced professionals and
+            make meaningful contributions to a dynamic team.
           </p>
 
           <div>

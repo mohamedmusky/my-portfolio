@@ -1,10 +1,8 @@
-import React from 'react'
-import { MdNightsStay, MdWbSunny } from "react-icons/md";
-import { useState } from 'react';
-import { Link } from "react-scroll";
+import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
-const Header = ({darkMode, setDarkMode}) => {
+const NavBar = () => {
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -22,25 +20,21 @@ const Header = ({darkMode, setDarkMode}) => {
     },
     {
       id: 4,
-      link: "technologies",
+      link: "experience",
     },
-    
     {
       id: 5,
-      link: "certifications",
-    },
-    {
-      id: 6,
       link: "contact",
     },
   ];
+
   return (
-    <header className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white w-full h-20 px-4 fixed">
-        <nav className='flex justify-between items-center p-5'>
-          <a href="/">
-            <h1 className="text-3xl font-signature  ml-2">MUSKY</h1>
-            </a>
-            <ul className="hidden md:flex">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white fixed">
+      <div>
+        <h1 className="text-5xl font-signature ml-2">Yash</h1>
+      </div>
+
+      <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -79,24 +73,8 @@ const Header = ({darkMode, setDarkMode}) => {
           ))}
         </ul>
       )}
-        
+    </div>
+  );
+};
 
-
-        <div onClick={()=> setDarkMode(!darkMode)}>
-
-            {darkMode ? (
-              <MdWbSunny className='text-2xl cursor-pointer' />
-            ):
-            (
-              <MdNightsStay className='text-2xl cursor-pointer' />
-            )}
-
-            
-  
-        </div>
-        </nav> 
-    </header>
-  )
-}
-
-export default Header
+export default NavBar;

@@ -19,7 +19,7 @@ const About = () => {
               About 🙋‍♂️
             </h2>
             <p className="text-gray-500 py-4 max-w-md text-left">
-              As a dedicated individual with a passion for technology and a strong interest in teamwork, I thrive in collaborative environments where I can explore and learn about the latest advancements in the field. My primary focus lies in the realm of cyber security and Computer Science, where I delve into topics that help safeguard digital systems and empower businesses to navigate the ever-evolving technological landscape securely. I am driven by a relentless curiosity and a commitment to expanding my knowledge in order to contribute meaningfully to the field. Let's connect and explore the exciting possibilities at the intersection of technology and teamwork.
+            In addition to my enthusiasm for cyber security and computer science, I bring a solid foundation in problem-solving and analytical thinking to every project I undertake. My academic background, combined with hands-on experience, has equipped me with a comprehensive understanding of both theoretical concepts and practical applications. I am adept at identifying vulnerabilities, implementing robust security measures, and staying abreast of emerging threats and technologies. My goal is to leverage my skills to develop innovative solutions that protect and enhance digital infrastructure. I am eager to collaborate with like-minded professionals and contribute to a secure and technologically advanced future.
             </p>
                       </div>
         </div>

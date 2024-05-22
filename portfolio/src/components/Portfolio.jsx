@@ -4,9 +4,10 @@ import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
 import p1 from '../assets/p1.png'
 import p2 from '../assets/p2.png'
 import p3 from '../assets/p3.png'
+import p4 from '../assets/p4.jpg'
 /*
 
-import p4 from '../assets/p4.jpg'
+
 import p5 from '../assets/p5.jpg'
 import p6 from '../assets/p6.jpg' */
 
@@ -38,40 +39,15 @@ const Portfolio = () => {
             github : "https://github.com/mohamedmusky/invoice-application-reactjs-golang-postrgresql-",
             demo : "/"
         },
-      /*   
-        {
-            id : 3,
-            Image : auth,
-            title : "Role Based Authentication",
-            about : "Technology Used : Springboot, Spring Security, JWT",
-            github : "https://github.com/UmairWaseef/SpringSecurity-User-Authentication-and-Authorization.git",
-            demo : "https://google.com"
-        },
         {
             id : 4,
             Image : p4,
-            title : "CEM-System(Associated with University Of Moratuwa)",
-            about : "Technology Used : React,Springboot, Spring Security, JWT",
-            github : "https://google.com",
-            demo : "https://google.com"
-        }, */
-        
-        /*{
-            id : 5,
-            Image : p5,
-            title : "Best App",
-            about : "Technology Used : Springboot, Spring Security, JWT",
-            github : "https://google.com",
-            demo : "https://google.com"*
-        },*/
-     /*    {
-            id : 6,
-            Image : p6,
-            title : "E-MART(On Going)",
-            about : "Technology Used : MERN Stack",
-            github : "https://google.com",
-            demo : "https://google.com"
-        } */
+            title : "Goal Add mobile app",
+            about : "Technology Used :ReactNative,Expo Go ",
+            github : "https://github.com/mohamedmusky/Goal-add-mobile-app",
+            demo : "/"
+        },
+ 
         
     ]
 

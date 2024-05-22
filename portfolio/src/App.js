@@ -3,18 +3,23 @@ import { useState } from "react";
 import Services from "./components/Services";
 
 import Testimonails from "./components/Testimonails";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
-import SocialLinks from "./components/SocialLinks";
 
-import Certifications from "./components/Certifications";
-import Technologies from "./components/Technologies";
+
+
+
+
+
  */
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio"
+import Technologies from "./components/Technologies";
+import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import SocialLinks from "./components/SocialLinks";
 
 
 function App() {
@@ -32,16 +37,21 @@ function App() {
         <Home />
      <About />
      <Portfolio />
+     <Technologies />
+     <Certifications />
+     <Contact />
+     <Footer />
+    <SocialLinks /> 
            {/* 
      
-        <Technologies />
+        
         <Services />
         
-        <Certifications />
-        <Contact />
-        <Footer />
+       
+       
+    */}
 
-        <SocialLinks /> */}
+     
       </main>
       
     </div>
