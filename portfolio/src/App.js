@@ -1,7 +1,7 @@
 import { useState } from "react";
 /* 
 import Services from "./components/Services";
-import Portfolio from "./components/Portfolio"
+
 import Testimonails from "./components/Testimonails";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -14,6 +14,7 @@ import Technologies from "./components/Technologies";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
+import Portfolio from "./components/Portfolio"
 
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
         
         <Home />
      <About />
+     <Portfolio />
            {/* 
-        <Portfolio />
+     
         <Technologies />
         <Services />
         
