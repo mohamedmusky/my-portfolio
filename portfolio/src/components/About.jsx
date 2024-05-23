@@ -19,7 +19,7 @@ const About = () => {
               About 🙋‍♂️
             </h2>
             <p className="text-gray-500 py-4 max-w-md text-left">
-            In addition to my enthusiasm for cyber security and computer science, I bring a solid foundation in problem-solving and analytical thinking to every project I undertake. My academic background, combined with hands-on experience, has equipped me with a comprehensive understanding of both theoretical concepts and practical applications. I am adept at identifying vulnerabilities, implementing robust security measures, and staying abreast of emerging threats and technologies. My goal is to leverage my skills to develop innovative solutions that protect and enhance digital infrastructure. I am eager to collaborate with like-minded professionals and contribute to a secure and technologically advanced future.
+          My academic background, combined with hands-on experience, has equipped me with a comprehensive understanding of both theoretical concepts and practical applications. I am adept at identifying vulnerabilities, implementing robust security measures, and staying abreast of emerging threats and technologies. My goal is to leverage my skills to develop innovative solutions that protect and enhance digital infrastructure. I am eager to collaborate with like-minded professionals and contribute to a secure and technologically advanced future.
             </p>
                       </div>
         </div>
