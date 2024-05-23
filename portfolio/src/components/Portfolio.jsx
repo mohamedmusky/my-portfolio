@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './common/Section'
-import {FaGithub, FaExternalLinkAlt} from 'react-icons/fa'
+import {FaGithub} from 'react-icons/fa'
 import p1 from '../assets/p1.png'
 import p2 from '../assets/p2.png'
 import p3 from '../assets/p3.png'

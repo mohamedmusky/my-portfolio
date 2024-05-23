@@ -1,6 +1,6 @@
 import React from 'react'
 import Section from './common/Section'
-import {FaFacebook, FaLinkedin, FaGithub, FaMedium} from 'react-icons/fa'
+import {FaFacebook, FaLinkedin, FaGithub} from 'react-icons/fa'
 import contact from '../assets/mobile.jpeg'
 
 const Contact = () => {

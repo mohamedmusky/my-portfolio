@@ -57,7 +57,7 @@ const Certifications = () => {
         
         <div>
             {INSTITUTE.map(({id, image, name, comment, link})=>(
-                <a href={link} target='_blank'>
+                <a href={link} target='_blank' rel="noreferrer">
                 <div className='flex p-4 justify-center items-center rounded-xl shadow-md dark:shadow-gray-300'>
                     <div className='w-2/3 '>
                         <img 
