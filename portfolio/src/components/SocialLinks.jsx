@@ -12,7 +12,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bl0U5L1J8SX2A1LZgahF16A%3D%3D",
+      href: "https://www.linkedin.com/in/mohamed-musky-14302b285?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BQSaAMe9aQBu%2BE674PYj8mA%3D%3D",
       style: "rounded-tr-md",
     },
     {
@@ -40,7 +40,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "https://drive.google.com/file/d/1T4fvukYhH70RLp7-R0kYz9n_SpY0QgX7/view?usp=drive_link",
+      href: "https://drive.google.com/file/d/1wpoCfbd_yYS4BLYaIXNkYMXtzdfYCd7G/view?usp=sharing",
       style: "rounded-br-md",
       download: true,
     },
